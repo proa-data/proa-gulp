@@ -1,6 +1,6 @@
 # Proa Gulp
 
-Gulp settings for projects of Proa Data.
+Gulp settings for front-end projects of Proa Data.
 
 ### Requirements
 
