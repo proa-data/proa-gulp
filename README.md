@@ -38,6 +38,13 @@ The main supported packages/languages/libraries are:
 require('proa-gulp');
 ```
 
+Optionally, to work with [HTML5 mode](https://docs.angularjs.org/api/ng/provider/$locationProvider#html5Mode), invoke `html5Mode` to prefix path of assets.
+
+```js
+var proaGulp = require('proa-gulp');
+proaGulp.html5Mode();
+```
+
 ### Folder structure
 
 Here is the essential basic organization you must to put in your project:
