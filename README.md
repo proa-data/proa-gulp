@@ -2,10 +2,6 @@
 
 [Gulp](https://gulpjs.com) settings for front-end projects of [Proa Data](https://github.com/proa-data).
 
-## Requirements
-
-It is compatible with version [8.17.0](https://nodejs.org/dist/v8.17.0/) of [Node.js](https://nodejs.org).
-
 ## Behaviour
 
 ### Tasks
