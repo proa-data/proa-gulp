@@ -1,6 +1,6 @@
 {
   "name": "proa-gulp",
-  "version": "2.0.7",
+  "version": "2.0.8",
   "description": "Gulp settings for front-end projects of Proa Data.",
   "main": "index.js",
   "scripts": {
