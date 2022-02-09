@@ -1,4 +1,5 @@
 this.html5Mode = html5Mode;
+this.setIconsToTinymceTextEditor = setIconsToTinymceTextEditor;
 
 const gulp = require('gulp'),
 	args = require('get-gulp-args')(),
@@ -115,6 +116,10 @@ function html5Mode() {
 	const pathPrefix = '/';
 	stylesFolder = pathPrefix + stylesFolder;
 	jsTemplatesFile = pathPrefix + jsTemplatesFile;
+}
+
+function setIconsToTinymceTextEditor() {
+	gulp.task('fonts', () => gulp.src(mainBowerFiles()).pipe(filter(['eot','otf','svg','ttf','woff','woff2'], true)).pipe(gulp.dest(paths.tmp+'fonts/')).pipe(gulp.dest(paths.tmp+'/styles/fonts/')));
 }
 
 function getFiles(ext) {
